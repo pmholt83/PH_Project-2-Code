@@ -1,0 +1,103 @@
+.top-bar{
+	background-color: white;
+	
+	
+}
+
+.name img{
+	height: 2em;
+}
+
+.top-bar .toggle-topbar.menu-icon a span::after {
+          box-shadow: 0 0 0 1px #000, 0 7px 0 1px #000, 0 14px 0 1px #000;
+      }
+
+
+
+
+
+
+figure.hero {
+ margin: 0;
+ position: relative;
+}
+figure.hero img {
+ width: 100%;
+}
+figure.hero figcaption {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+ background-color: rgba(0, 0, 0, .2);
+ text-align: right;
+
+}
+/*figcaption h1{
+ animation: moveover 1s;
+ animation-fill-mode:forwards;
+}
+@keyframes moveover {
+ 0% { transform: translateX(0); }
+ 100% { transform: translateX(300px); }
+}*/
+
+
+footer {
+
+	margin-top:4.5rem;
+}
+
+/*footer img{
+	height: 80px;
+}
+*/
+footer a {text-decoration: none;
+	color: #000;
+	font-size: 1.5em;
+}
+aside {
+	padding-bottom: 2em;
+}
+
+.social-links {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+
+}
+.social-links li{
+	display: inline-block;
+	
+}
+
+@media screen and (min-width:40.0625em){
+
+.top-bar{
+height:4.5rem;
+}
+
+.social-links{
+	text-align: right;
+}
+
+	.top-bar-section li:not(.has-form) a:not(.button){
+	line-height: 4.5rem;
+}
+.top-bar-section li.active:not(.has-form) a:not(.button){
+	line-height: 4.5rem;
+}
+
+.name img {
+	height: 45px;
+
+}
+
+figure.hero figcaption {
+ 
+bottom: 55px;
+
+
+}
+
+}
