@@ -31,15 +31,12 @@ figure.hero figcaption {
  background-color: rgba(0, 0, 0, .2);
  text-align: right;
 
+
 }
-/*figcaption h1{
- animation: moveover 1s;
- animation-fill-mode:forwards;
+figcaption h1{
+color: white;
 }
-@keyframes moveover {
- 0% { transform: translateX(0); }
- 100% { transform: translateX(300px); }
-}*/
+
 
 
 footer {
@@ -47,10 +44,10 @@ footer {
 	margin-top:4.5rem;
 }
 
-/*footer img{
-	height: 80px;
+footer img{
+	height: 150px;
 }
-*/
+
 footer a {text-decoration: none;
 	color: #000;
 	font-size: 1.5em;
@@ -97,7 +94,10 @@ figure.hero figcaption {
  
 bottom: 55px;
 
+}
 
+figcaption h1 {
+	color: black;
 }
 
 }
