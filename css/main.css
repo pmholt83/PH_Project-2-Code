@@ -2,6 +2,7 @@
 
 .top-bar{
 	background-color: white;
+
 	
 	
 }
@@ -10,9 +11,21 @@
 	height: 2em;
 }
 
+
 .top-bar .toggle-topbar.menu-icon a span::after {
           box-shadow: 0 0 0 1px #000, 0 7px 0 1px #000, 0 14px 0 1px #000;
       }
+
+      .top-bar-section li:not(.has-form) a:not(.button) {
+      	background-color: white;
+      	color: black;
+      }
+
+      .top-bar-section li.active:not(.has-form) a:not(.button) {
+    background: #333333;
+	}
+
+
 
 body {
 	background-image: url('../img/bg2.png');
@@ -20,8 +33,13 @@ body {
 	background-repeat: no-repeat, repeat;
 
 	}
+}
+body .cart{
+	background-image: url('img/bg4.png');
+	background-size: cover;
+	background-repeat: no-repeat, repeat;
 
-
+	}
 
 
 figure.hero {
@@ -96,15 +114,22 @@ aside {
 	
 }
 
+
 @media screen and (min-width:40.0625em){
 
 .top-bar{
 height:4.5rem;
 }
 
+	.top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
+	height: 4.5rem;
+}
+
 .social-links{
 	text-align: right;
 }
+
+
 
 	.top-bar-section li:not(.has-form) a:not(.button){
 	line-height: 4.5rem;
