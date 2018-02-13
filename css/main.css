@@ -37,7 +37,7 @@ body {
 
 	}
 }
-.cart{
+.cart body{
 	background-image: url('img/bg4.png');
 	background-size: cover;
 	background-repeat: no-repeat, repeat;
@@ -116,6 +116,8 @@ aside {
 	display: inline-block;
 	
 }
+
+
 
 
 @media screen and (min-width:40.0625em){
