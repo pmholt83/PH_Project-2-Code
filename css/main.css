@@ -89,8 +89,8 @@ h4{
 footer {
 
 	margin-top:4.5rem;
-	background-image: url('../img/snow.png');
-	background-size: cover;
+	background: #d4d4d4;
+	
 }
 
 footer img{
