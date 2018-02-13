@@ -1,4 +1,6 @@
-
+*{
+	box-sizing: border-box;
+}
 
 .top-bar{
 	background-color: white;
@@ -28,21 +30,41 @@
     background: #333333;
 	}
 
+	 .top-bar-section li.active:not(.has-form) a:not(.button):hover {
+    background: #eee;
+    color: #333333;
+	}
+
+.top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"]{
+	border-color: #e5e5e5; 	
+}
+
+button,
+.button {
+	background-color: black;
+
+}
 
 
 body {
 	background-image: url('../img/bg2.png');
 	background-size: cover;
-	background-repeat: no-repeat, repeat;
+	background-repeat: no-repeat;
 
 	}
-}
-.cart body{
-	background-image: url('img/bg4.png');
+.cart {
+	background-image: url('../img/bg4.png');
 	background-size: cover;
-	background-repeat: no-repeat, repeat;
+	background-repeat: no-repeat;
 
 	}
+.facts {
+	background-color: white;
+	padding-left: 	2em;
+
+}
+
+
 
 
 figure.hero {
