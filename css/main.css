@@ -72,6 +72,9 @@ button.disable:hover{
 
 }
 
+button:hover, button:focus, .button:hover, .button:focus{
+	background-color: grey;
+}
 .breadcrumbs > * a{
 	color: black;
 }
@@ -97,6 +100,10 @@ body {
 	background-color: white;
 	padding-left: 	2em;
 
+}
+
+.cart .panel h4 a{
+	color: grey;
 }
 
 
