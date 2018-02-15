@@ -47,8 +47,8 @@ button,
 }
 
 .button:hover{
-	background-color: white;
-	color: black;
+	background-color: #7c7676;
+	color: #eee;
 
 }
 
@@ -88,7 +88,7 @@ body {
 
 	}
 .cart {
-	background-image: url('../img/bg4.png');
+	background-image: url('../img/bg4.svg');
 	background-size: cover;
 	background-repeat: no-repeat;
 
