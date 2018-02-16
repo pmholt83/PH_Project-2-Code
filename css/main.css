@@ -146,7 +146,7 @@ body{
 }
 
 .follow {
-	padding-left: 2em;
+	padding-left: .5em;
 	
 }
 
@@ -178,18 +178,7 @@ footer a {text-decoration: none;
 	font-size: 1.5em;
 }
 
-.confirmation footer {
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-}
 
-.confirmation {
-	background-image: url('../img/bg5.png');
-	background-size: 40%;
-	background-position: bottom 60% left 100%;
-	background-repeat: no-repeat; 
-}
 
 
 aside {
@@ -262,6 +251,13 @@ figcaption h1 {
 	background-position: bottom 60% left 100%;
 	background-repeat: no-repeat; 
 }
+
+.confirmation footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
 .follow {
 	padding-left: 0;
 	
