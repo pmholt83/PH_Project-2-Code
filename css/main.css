@@ -145,6 +145,11 @@ body{
 	font-weight: 300;
 }
 
+.follow {
+	padding-left: 2em;
+	
+}
+
 h4{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
@@ -256,6 +261,10 @@ figcaption h1 {
 	background-size: 40%;
 	background-position: bottom 60% left 100%;
 	background-repeat: no-repeat; 
+}
+.follow {
+	padding-left: 0;
+	
 }
 
 
