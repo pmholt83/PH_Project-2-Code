@@ -132,6 +132,7 @@ figure.hero figcaption {
 figcaption h1{
 color: white;
 font-family: 'Roboto', sans-serif;
+padding-right: .75rem;
 }
 
 h1{
@@ -172,6 +173,18 @@ footer a {text-decoration: none;
 	font-size: 1.5em;
 }
 
+.confirmation footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.confirmation {
+	background-image: url('../img/bg5.png');
+	background-size: 40%;
+	background-position: bottom 60% left 100%;
+	background-repeat: no-repeat; 
+}
 
 
 aside {
@@ -237,5 +250,13 @@ bottom: 55px;
 figcaption h1 {
 	color: black;
 }
+
+.confirmation {
+	background-image: url('../img/bg5.png');
+	background-size: 40%;
+	background-position: bottom 60% left 100%;
+	background-repeat: no-repeat; 
+}
+
 
 }
