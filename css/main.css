@@ -205,11 +205,11 @@ aside {
 	color: white;
 }
 
-.orbit-container,
-.orbit-container li,
-.orbit-container li .row,
-.orbit-container li .columns,
-.orbit-slides-container 
+.home .orbit-container,
+.home .orbit-container li,
+.home .orbit-container li .row,
+.home .orbit-container li .columns,
+.home .orbit-slides-container 
 {
 	height: 100% !important;
 }
