@@ -5,8 +5,12 @@
 .top-bar{
 	background-color: white;
 
+
 	
-	
+}
+
+.home .product-grid{
+	padding: 3rem 0;
 }
 
 .name img{
@@ -148,10 +152,7 @@ body{
 	font-weight: 300;
 }
 
-.follow {
-	padding-left: .5em;
-	
-}
+
 
 h4{
 	font-family: 'Roboto', sans-serif;
@@ -170,6 +171,10 @@ footer {
 	padding-top: 1.5rem;
 
 	
+}
+
+.home footer {
+	margin-top: 0;
 }
 
 footer img{
@@ -214,7 +219,14 @@ aside {
 	height: 100% !important;
 }
 
+.follow [class*="block-grid-"] > li{
+	width: 100%;
+}
 
+.follow {
+	background-color: #f7f7f7;
+	padding: 3rem 0;
+}
 
 
 
@@ -268,9 +280,10 @@ figure.hero img {
 	width: 100%;
 }
 
-.follow {
-	padding-left: 0;
-	
+
+
+.follow [class*="block-grid-"] > li{
+	width: auto;
 }
 
 
