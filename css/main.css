@@ -228,6 +228,11 @@ aside {
 	padding: 3rem 0;
 }
 
+h2{
+	font-size: 1.9rem;
+	font-weight: 200; 
+}
+
 
 
 @media screen and (min-width:40.0625em){
