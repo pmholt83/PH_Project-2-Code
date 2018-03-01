@@ -79,6 +79,11 @@ button.disable:hover{
 button:hover, button:focus, .button:hover, .button:focus{
 	background-color: grey;
 }
+
+form {
+  margin-bottom:1rem;
+}
+
 .breadcrumbs > * a{
 	color: black;
 }
@@ -241,8 +246,12 @@ h2{
 height:4.5rem;
 }
 
+form {
+  margin-bottom:6.5rem;
+}
 
-	.top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
+
+.top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
 	height: 4.5rem;
 }
 
@@ -252,7 +261,7 @@ height:4.5rem;
 
 
 
-	.top-bar-section li:not(.has-form) a:not(.button){
+.top-bar-section li:not(.has-form) a:not(.button){
 	line-height: 4.5rem;
 }
 .top-bar-section li.active:not(.has-form) a:not(.button){
